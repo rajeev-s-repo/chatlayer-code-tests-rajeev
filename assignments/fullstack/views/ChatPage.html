@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chatlayer Web Widget</title>
+	<link rel="shortcut icon" href="/public/images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="../public/styles/style.css" />
+	<link rel="stylesheet" href="../public/styles/bootstrap.min.css">
+	<link rel="stylesheet" href="../public/styles/fa.css">
+	<script src="../public/scripts/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../public/styles/jquery.mCustomScrollbar.min.css">
+	<script src="views/controllers/ChatPageController.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid h-100">
+		<div class="row justify-content-center h-100">
+
+			<div class="col-md-8 col-xl-6 chat">
+				<div class="card">
+					<div class="card-header msg_head">
+						<div class="d-flex bd-highlight">
+							<div class="img_cont">
+								<img src="/public/images/chatboticon.jpg" class="rounded-circle user_img"
+									style="border:none">
+								<span class="online_icon"></span>
+							</div>
+							<div class="user_info">
+								<span>Chat with Echobot</span>
+
+							</div>
+
+						</div>
+					</div>
+					<div id="msgContainer" class="card-body msg_card_body">
+					</div>
+					<div class="card-footer">
+						<div class="input-group">
+
+							<textarea name="" id="inputmsg" class="form-control type_msg"
+								placeholder="Type your message..."></textarea>
+							<div onclick="sendMessage()" class="input-group-append">
+								<span class="input-group-text send_btn">
+									<i class="fas fa-paper-plane"></i>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "@chatlayer/code-tests",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "jest": "^26.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Rajeev S",
+  "license": "ISC"
+}
